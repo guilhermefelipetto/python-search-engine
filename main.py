@@ -13,6 +13,6 @@ if __name__ == "__main__":
     "Existem muitos recursos online para Python.",  ## deve ter 1 
     ]
 
-    user_input = "aprender".split()
+    user_input = "aprender python".split()
 
     resultado_ranking = calcula_tfidf(dados, user_input)
