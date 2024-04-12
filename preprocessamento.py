@@ -2,11 +2,9 @@ import numpy as np
 import nltk
 
 from nltk.corpus import stopwords
+from nltk_stopwords import get_stopwords
 
-# download das stopwords
-nltk.download('stopwords')
-
-termos_irrelevantes = set(stopwords.words('portuguese'))
+termos_irrelevantes = get_stopwords()
 char_especias = [x for x in "\\./*-+º|!@#$%¨&()?~^[]{}"]
 
 
